@@ -12,7 +12,6 @@ Based on the [Jekyll digital garden template](https://github.com/maximevaillanco
 -   **Categories!** (not clickable yet)
 -   **Emoji favicons!** Configure at site level or page level with `favicon:` variable
 -   **Archive Page!** An index of all notes, date updated, category, and excerpt.
--   **Tables!** Table syntax matches Obsidian and Github with [Commonmark Github Flavored Markdown](https://github.com/github/jekyll-commonmark-ghpages) integration
 -   **Obsidian Templates!** Easily create a new note or page with the proper front matter variables.
 -   **Green Bok Choy Theme!** This is the public version of the theme I'll be using for my personal site [megu.space](https://megu.space)
 

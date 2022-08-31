@@ -1,6 +1,6 @@
 ---
 category: Getting Started
-favicon: 
+favicon:
 ---
 
 ## Front Matter
@@ -17,7 +17,7 @@ If you forget to add this to a note, it's no big deal! Maxime wrote a plugin cal
 The title of the `.md` file will automatically become the note title heading, rendered as an `<h1>`. Keeping this in mind, start your note content from `<h2>` or `##`.
 
 ### Title Override
-Use variable `title:` in the front matter to create a note title that is different from the filename. 
+Use variable `title:` in the front matter to create a note title that is different from the filename.
 
 ```
 ---
@@ -49,11 +49,11 @@ For internal links, add `class="internal-link"` to the HTML.
 Unfortunately, `{: .internal-link}` stopped working when I switched to Commonmark.
 
 ## Github Flavored Markdown
-This site uses [Commonmark Github Flavored Markdown](https://github.com/github/jekyll-commonmark-ghpages), which replaces the default Kramdown functionality. Read the [Github Markdown Documentation](https://github.github.com/gfm/).
+~~~This site uses [Commonmark Github Flavored Markdown](https://github.com/github/jekyll-commonmark-ghpages), which replaces the default Kramdown functionality. Read the [Github Markdown Documentation](https://github.github.com/gfm/).~~~
 
-Most importantly, you can create tables that are compatible with Obsidian and Github:
+Deleted Commonmark due to some conflicting dependencies. Back to Kramdown now. Will troubleshoot later.
 
-| foo | bar      | 
+| foo | bar      |
 | --- | -------- |
 | baz | [[cats]] |
 
