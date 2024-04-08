@@ -9,7 +9,7 @@ timezone: America/Los_Angeles
 include: [".htaccess"]
 
 # Remove obsidian-templates and delete the folder if you aren't using Obsidian Templates plugin
-exclude: ["_includes/notes_graph.json", "obsidian-templates"]
+exclude: ["_includes/notes_graph.json"]
 
 # If you are using a host that cannot resolve URLs that do
 # not end with .html (such as Neocities or Dreamhost), set this to 'true'.
