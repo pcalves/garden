@@ -21,7 +21,9 @@ class BidirectionalLinksGenerator < Jekyll::Generator
           File.extname(note_potentially_linked_to.basename)
         ).gsub('_', ' ').capitalize
 
-        new_href = "#{note_potentially_linked_to.url}#{link_extension}"
+        external_href = note_potentially_linked_to.data["source"]
+
+        new_href = external_href ||= "#{note_potentially_linked_to.url}#{link_extension}"
         anchor_tag = "<a class='internal-link' href='#{new_href}'>\\1</a>"
 
         # Replace double-bracketed links with label using note title
