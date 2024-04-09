@@ -1,6 +1,6 @@
 ---
 type:
-  - "[People](People.md)"
+  - "[[People|People]]"
 tags:
   - people
   - digital-gardens
@@ -14,4 +14,4 @@ share: true
 ---
 
 ## Clippings
-- [Stream of Consciousness Morning Notes](../../Stream%20of%20Consciousness%20Morning%20Notes.md)
+- [[Clippings/Stream of Consciousness Morning Notes.md|Stream of Consciousness Morning Notes]]
