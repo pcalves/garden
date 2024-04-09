@@ -17,7 +17,7 @@ This collection of apps, tools and articles is here to help you learn more about
 
 ## What is "digital gardening"?
 
-[](Resources,%2520links,%2520projects,%2520and%2520ideas%2520for%2520gardeners%2520tending%2520their%2520digital%2520notes%2520on%2520the%2520public%2520interwebs.md#what-is-digital-gardening)
+[](#what-is-digital-gardening)
 
 A garden is something inbetween a personal blog and a wiki. It's a collection of evolving notes, essays, and ideas that aren't strictly organised by their publication date. They're inherently exploratory – posts are linked through contextual associations. They aren't refined or complete - posts can be published as half-finished thoughts that will grow and evolve over time. They're less rigid, less performative, and less perfect than the personal "blogs" we're used to encountering on the web.
 
@@ -57,7 +57,7 @@ See the [Theory, Philosophy, and Navel-gazing](https://github.com/MaggieAppleton
 
 ### Building a Private Garden
 
-[](Resources,%2520links,%2520projects,%2520and%2520ideas%2520for%2520gardeners%2520tending%2520their%2520digital%2520notes%2520on%2520the%2520public%2520interwebs.md#building-a-private-garden)
+[](#building-a-private-garden)
 
 -   [Bangle.io](https://bangle.io/) - A simple, markdown-based notetaking app that runs locally on your machine.
 -   [Org Roam](https://www.orgroam.com/) - non-hierarchical note-taking with org-mode in emacs
@@ -82,7 +82,7 @@ See the [Theory, Philosophy, and Navel-gazing](https://github.com/MaggieAppleton
 
 ## Theory, Philosophy, and Navel-Gazing
 
-[](Resources,%2520links,%2520projects,%2520and%2520ideas%2520for%2520gardeners%2520tending%2520their%2520digital%2520notes%2520on%2520the%2520public%2520interwebs.md#theory-philosophy-and-navel-gazing)
+[](#theory-philosophy-and-navel-gazing)
 
 -   **[The Garden and the Stream: A Techno pastoral](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/)** by Mike Caulfield – the original source of the concept of **Digital Gardening**
 -   [Of Digital Streams, Campfires and Gardens](https://tomcritchlow.com/2018/10/10/of-gardens-and-wikis/) by Tom Critchlow
@@ -99,7 +99,7 @@ See the [Theory, Philosophy, and Navel-gazing](https://github.com/MaggieAppleton
 
 ## Common Ground: Zettelkasten, Knowledge Graphs, Wikis, and Related Concepts
 
-[](Resources,%2520links,%2520projects,%2520and%2520ideas%2520for%2520gardeners%2520tending%2520their%2520digital%2520notes%2520on%2520the%2520public%2520interwebs.md#common-ground-zettelkasten-knowledge-graphs-wikis-and-related-concepts)
+[](#common-ground-zettelkasten-knowledge-graphs-wikis-and-related-concepts)
 
 -   [Zettelkasten: knowledge and info management](https://zettelkasten.de/)
 -   [The Zettelkasten Method](https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1) by Abram Demski
@@ -452,7 +452,7 @@ Books, Cognitive Sciences, Education, Technology, and whatever else I happen to 
 
 ## Other digital garden compilations:
 
-[](Resources,%2520links,%2520projects,%2520and%2520ideas%2520for%2520gardeners%2520tending%2520their%2520digital%2520notes%2520on%2520the%2520public%2520interwebs.md#other-digital-garden-compilations)
+[](#other-digital-garden-compilations)
 
 -   [Nikita's compilation](https://wiki.nikiv.dev/other/wiki-workflow#similar-wikis-i-liked)
 -   [Richard Litt's compilation](https://github.com/RichardLitt/meta-knowledge)
