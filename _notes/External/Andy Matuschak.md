@@ -1,6 +1,6 @@
 ---
 type:
-  - "[[People|People]]"
+  - "[People](People.md)"
 tags:
   - writer
   - thinker
@@ -13,5 +13,5 @@ share: true
 
 > I'm an applied researcher, focused on creating user interfaces that expand what people can think and do. My current focus is an augmented book which actively helps people understand, remember, and use what they read.
 
-Keeps a set of [[../Evergreen notes|Evergreen notes]] over at [[Andyʼs working notes|Andyʼs working notes]]. Lots of interesting stuff on process.
+Keeps a set of [Evergreen notes](../Evergreen%20notes.md) over at [Andyʼs working notes](Andy%CA%BCs%20working%20notes.md). Lots of interesting stuff on process.
 
