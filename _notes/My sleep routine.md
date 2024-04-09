@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - self-care
   - health
@@ -10,7 +10,7 @@ created: 2024-03-16
 share: true
 ---
 
-The following has been distilled mostly from [Why We Sleep: Unlocking the Power of Sleep and Dreams](./External/Why%20We%20Sleep.md) and a lot of trial and error:
+The following has been distilled mostly from [[Why We Sleep|Why We Sleep: Unlocking the Power of Sleep and Dreams]] and a lot of trial and error:
 
 1. Try to go to sleep - and to wake up - at roughly the same time every day (weekends included)
 
