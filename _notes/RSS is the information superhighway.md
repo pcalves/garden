@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - the-good-web
   - internet
