@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Posts](Posts.md)"
+  - "[[Posts|Posts]]"
 tags:
   - posts
   - submissions
@@ -9,13 +9,13 @@ created: 2024-04-02
 published: true
 topics: 
 references:
-  - "[Decisions that make my life easier](Decisions%20that%20make%20my%20life%20easier.md)"
+  - "[[Decisions that make my life easier|Decisions that make my life easier]]"
 share: true
 ---
 
 ## Hi! Tell us about who you are and what you do
 
-![hacker-stations-1.jpeg](../assets/images/hacker-stations-1.jpeg)
+![[hacker-stations-1.jpeg|hacker-stations-1.jpeg]]
 
 Hey! My name is Paulo Coelho Alves. I live in Lisboa, Portugal with my partner, our 2 year old kid and a 10 year old cat with a bad attitude that's only slightly mellowed out in her old age. 
 
@@ -25,7 +25,7 @@ I tend to my [digital garden](https://hapgood.us/2015/10/17/the-garden-and-the-s
 
 I also make ambient, IDM, DnB and other types of music as [Life Patterns](https://www.lifepattrns.com/). Most of it happens in the laptop, after work, pushing notes around using the keyboard and mouse. Sometimes in the Ableton Push 2 that's on my desk, but not as often as I'd like. Of course, Ableton came out with a standalone Push shortly after I purchased mine.
  
-![hacker-stations-2.jpeg](../assets/images/hacker-stations-2.jpeg)
+![[hacker-stations-2.jpeg|hacker-stations-2.jpeg]]
 
 ## What is your hardware setup?
 
@@ -49,13 +49,13 @@ I mostly listen to music on a relatively cheap but great-sounding Sonos speaker 
 
 This [modern cassette player by we are rewind](https://www.wearerewind.com/products/lecteur-cassette-bluetooth-bleu-kurt) is great to take on walks. My tape collection is still small, but there's no shortage of good stuff coming out through Bandcamp. I love that it forces intention on the act of listening to music: what you take with you is what you have.
 
-![hacker-stations-3.jpeg](../assets/images/hacker-stations-3.jpeg)
+![[hacker-stations-3.jpeg|hacker-stations-3.jpeg]]
 
 I keep an [aroma stone from MUJI](https://www.muji.us/products/aroma-stone) under the monitor. Every morning I toss in a few drops of essential oils and enjoy the frangance for a few hours. I know nothing about aromatherapy, I just like nice smells. Something citrusy, eucalyptus or ylang ylang are my go-tos.
 
 I love being surrounded by and taking care of plants. They don't take much work and give so much in return.
 
-![hacker-stations-4.jpeg](../assets/images/hacker-stations-4.jpeg)
+![[hacker-stations-4.jpeg|hacker-stations-4.jpeg]]
 
 ## What is your software setup?
 
@@ -83,7 +83,7 @@ I've been working with JavaScript and TypeScript for so long I've grown to love 
 
 More plants, always. A more comfortable chair. I've been eyeing these [cute wooden figurines](https://www.polepole-animals.eu/). An [EP-133 K.O. II](https://teenage.engineering/store/ep-133) would be nice but probably destroy my productivity. Or it'd just make me really productive at jamming and making music.
 
-![hacker-stations-5.jpeg](../assets/images/hacker-stations-5.jpeg)
+![[hacker-stations-5.jpeg|hacker-stations-5.jpeg]]
  
 ## What book comes to your mind that you would like others to read?
 

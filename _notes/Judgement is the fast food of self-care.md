@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - self-care
   - self-improvement

@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 author: "[[Mike Tannenbaum]]"
 title: Obsidian Jekyll workflow
 source: https://refinedmind.co/obsidian-jekyll-workflow

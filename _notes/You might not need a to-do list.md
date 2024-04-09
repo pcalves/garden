@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - notes
 created: 2024-04-01

@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 author: "[[Steph Ango]]"
 title: File over app
 source: https://stephango.com/file-over-app

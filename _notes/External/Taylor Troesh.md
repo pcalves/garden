@@ -1,6 +1,6 @@
 ---
 type:
-  - "[People](People.md)"
+  - "[[People|People]]"
 tags:
   - people
   - writer
@@ -10,5 +10,5 @@ share: true
 ---
 
 ## Clippings
-- [Find a Phone-Home](../../Find%20a%20Phone-Home.md)
+- [[Clippings/Find a Phone-Home.md|Find a Phone-Home]]
 

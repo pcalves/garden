@@ -1,8 +1,8 @@
 ---
 type:
-  - "[Books](Books.md)"
+  - "[[Books|Books]]"
 author:
-  - "[Austin Kleon](Austin%20Kleon.md)"
+  - "[[Austin Kleon|Austin Kleon]]"
 image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404576602i/13099738.jpg
 genre:
   - Non-fiction

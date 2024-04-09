@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - internet
 share: true

@@ -1,13 +1,13 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - kindness
   - notes
 share: true
 ---
 
-Originally came upon this in [Austin Kleon](./External/Austin%20Kleon.md)'s blog post entitled [Basic pleasantries](https://austinkleon.com/2024/03/15/basic-pleasantries/), where the author writes:
+Originally came upon this in [[Austin Kleon|Austin Kleon]]'s blog post entitled [Basic pleasantries](https://austinkleon.com/2024/03/15/basic-pleasantries/), where the author writes:
 
 > I am no saint, but I’ve been shocked lately by how saying “Hello,” “Please,” and “Thank you” to workers in service industries often elicits surprise and wonder and gets me treated like the Pope. I don’t know what is going on with most people, but it seems like a large number of us are becoming assholes, either downright mean or totally oblivious to others. I probably don’t need to tell you lovely subscribers this, but just in case: Try this week to acknowledge your fellow human beings and treat them with basic dignity and respect. The Golden Rule not only works wonders, it heals the soul!
 

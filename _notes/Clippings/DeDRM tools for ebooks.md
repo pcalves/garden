@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 author: 
 title: "noDRM/DeDRM_tools: DeDRM tools for ebooks"
 source: https://github.com/nodrm/DeDRM_tools

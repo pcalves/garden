@@ -1,6 +1,6 @@
 ---
 type:
-  - "[People](People.md)"
+  - "[[People|People]]"
 tags:
   - people
   - writing
@@ -10,4 +10,4 @@ share: true
 ---
 
 ## Books
-- [Palo Alto](./Palo%20Alto.md)
+- [[External/Palo Alto.md|Palo Alto]]

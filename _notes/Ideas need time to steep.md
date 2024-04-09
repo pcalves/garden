@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - notes
   - thinking
@@ -9,7 +9,7 @@ created: 2024-04-07
 share: true
 ---
 
-Writing and thinking requires time. [Patience](../Patience.md) is absolutely necessary.
+Writing and thinking requires time. [[Patience|Patience]] is absolutely necessary.
 
 In this sense, it's a lot like making tea. There's a process to it, and even while making it at home, some ceremony is required. First, you hear the water. Then, you prepare the vessel and the ingredients. When the water temperature is just right, you pour it into the vessel.
 

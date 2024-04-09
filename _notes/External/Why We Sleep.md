@@ -1,8 +1,8 @@
 ---
 type:
-  - "[Books](Books.md)"
+  - "[[Books|Books]]"
 author:
-  - "[Matthew Walker](Matthew%20Walker.md)"
+  - "[[Matthew Walker|Matthew Walker]]"
 image:
   - https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556604137i/34466963.jpg
 genre:

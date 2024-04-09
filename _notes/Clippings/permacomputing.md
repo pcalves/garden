@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 author: 
 title: permacomputing
 source: https://permacomputing.net/

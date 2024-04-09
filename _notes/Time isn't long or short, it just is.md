@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Notes](Notes.md)"
+  - "[[Notes|Notes]]"
 tags:
   - self-improvement
   - self-care
@@ -9,8 +9,8 @@ share: true
 
 We often speak of time as if it's short or long. We don't have enough time for something, or, time stretches on forever.
 
-[Rick Rubin](./External/Rick%20Rubin.md) writes the following on [Patience](../Patience.md) in [The Creative Act](./External/The%20Creative%20Act.md):
-![The Creative Act > Patience](./External/The%20Creative%20Act.mdpatience)
+[[Rick Rubin|Rick Rubin]] writes the following on [[Patience|Patience]] in [[The Creative Act|The Creative Act]]:
+![[The Creative Act#Patience|The Creative Act > Patience]]
 
 Time simply flows, in much the same way as it always does and always has done, one second followed by the next.
 

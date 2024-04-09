@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 author: ""
 title: The Calming World of Kankyo Ongaku
 source: https://www.tokyoweekender.com/entertainment/music/the-calming-world-of-kankyo-ongaku-music/

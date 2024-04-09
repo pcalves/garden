@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 title: Invidious
 source: https://invidious.io/
 clipped: 2024-02-27

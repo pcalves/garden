@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 author: "[[James Clear]]"
 title: "Identity-Based Habits: How to Actually Stick to Your Goals This Year"
 source: https://jamesclear.com/identity-based-habits
