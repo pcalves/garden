@@ -1,6 +1,6 @@
 ---
 type:
-  - "[People](People.md)"
+  - "[[People|People]]"
 tags:
   - people
   - writing
