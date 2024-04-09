@@ -1,6 +1,6 @@
 ---
 type:
-  - "[People](People.md)"
+  - "[[People|People]]"
 tags:
   - people
   - music
@@ -12,6 +12,6 @@ share: true
 ---
 
 ## Books
-- [The Creative Act](./The%20Creative%20Act.md)
+- [[External/The Creative Act.md|The Creative Act]]
 
 
