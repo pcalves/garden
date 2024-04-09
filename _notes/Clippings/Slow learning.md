@@ -1,6 +1,6 @@
 ---
 type:
-  - "[Clippings](Clippings.md)"
+  - "[[Clippings|Clippings]]"
 author: "[[Austin Kleon]]"
 title: Slow learning
 source: https://austinkleon.com/2023/03/21/slow-learning/
