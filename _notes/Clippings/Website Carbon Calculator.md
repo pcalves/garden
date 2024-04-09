@@ -1,6 +1,6 @@
 ---
 type:
-  - "[[Clippings|Clippings]]"
+  - "[Clippings](Clippings.md)"
 author: ""
 title: Website Carbon Calculator v3 | What's your site's carbon footprint?
 source: https://www.websitecarbon.com/
