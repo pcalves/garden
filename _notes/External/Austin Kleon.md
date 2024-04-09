@@ -9,6 +9,6 @@ share: true
 ---
 
 ## Books
-- [[./Keep Going|Keep Going]]
-- [[./Show Your Work!|Show Your Work!]]
-- [[./Steal Like an Artist|Steal Like an Artist]]
+- [Keep Going](./Keep%20Going.md)
+- [Show Your Work!](./Show%20Your%20Work!.md)
+- [Steal Like an Artist](./Steal%20Like%20an%20Artist.md)
