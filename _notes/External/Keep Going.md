@@ -1,8 +1,8 @@
 ---
 type:
-  - "[[Books|Books]]"
+  - "[Books](Books.md)"
 author:
-  - "[[Austin Kleon|Austin Kleon]]"
+  - "[Austin Kleon](Austin%20Kleon.md)"
 image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1535883531i/40591677.jpg
 source: https://literal.club/book/keep-going-acdwf
 genre:
