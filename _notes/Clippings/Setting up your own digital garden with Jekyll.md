@@ -1,6 +1,6 @@
 ---
 type:
-  - "[[Clippings|Clippings]]"
+  - "[Clippings](Clippings.md)"
 author: "[[Maxime Vaillancourt]]"
 title: Setting up your own digital garden with Jekyll
 source: https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll

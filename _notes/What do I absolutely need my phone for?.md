@@ -1,13 +1,13 @@
 ---
 type:
-  - "[[Notes|Notes]]"
+  - "[Notes](Notes.md)"
 tags:
   - notes
 created: 2024-04-02
 share: true
 ---
 
-Trying to figure out ways to [[../Become untethered|Become untethered]].
+Trying to figure out ways to [Become untethered](../Become%20untethered.md).
 
 ## GPS
 When I'm out and about I mostly know where to go. When I grab my car I need GPS for going to new places. Maybe I could try using the GPS built into my car, see how it compares to the apps on my phone.

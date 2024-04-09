@@ -1,6 +1,6 @@
 ---
 type:
-  - "[[Notes|Notes]]"
+  - "[Notes](Notes.md)"
 tags:
   - privacy
   - pkm

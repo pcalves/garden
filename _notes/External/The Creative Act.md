@@ -1,8 +1,8 @@
 ---
 type:
-  - "[[Books|Books]]"
+  - "[Books](Books.md)"
 author:
-  - "[[Rick Rubin|Rick Rubin]]"
+  - "[Rick Rubin](Rick%20Rubin.md)"
 image:
   - https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663707011i/60965426.jpg
 genre:

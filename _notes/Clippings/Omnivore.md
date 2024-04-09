@@ -1,6 +1,6 @@
 ---
 type:
-  - "[[Clippings|Clippings]]"
+  - "[Clippings](Clippings.md)"
 author: 
 title: Omnivore
 source: https://omnivore.app/
