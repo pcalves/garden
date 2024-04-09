@@ -1,6 +1,6 @@
 ---
 type:
-  - "[[People|People]]"
+  - "[People](People.md)"
 tags:
   - internet
   - the-cheap-web
