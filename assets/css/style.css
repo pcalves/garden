@@ -1,11 +1,11 @@
 :root {
-  --bg-color: rgb(222, 222, 222);
-  --text-color: rgb(30, 30, 30);
-  --link-color: rgb(0, 0, 238);
-  --link-hover-color: rgb(30, 30, 30);
-  --selection-bg-color: rgb(0, 0, 2238);
-  --blockquote-bg-color: rgba(0, 0, 238, 0.15);
-  --selection-text-color: rgb(250, 250, 255);
+  --bg-color: rgb(234, 220, 201);
+  --text-color: rgb(32, 30, 26);
+  --link-color: rgb(49, 57, 251);
+  --link-hover-color: rgb(32, 30, 26);
+  --selection-bg-color: rgb(49, 57, 251);
+  --blockquote-bg-color: rgba(236, 237, 254);
+  --selection-text-color: white;
   --heading-font-family: "avenir next", avenir, -apple-system,
     blinkmacsystemfont, neue-haas-unica, sans-serif;
 }
@@ -155,13 +155,29 @@ table {
 
 blockquote {
   border-left: 0.15em solid var(--link-color);
-  padding: 0 1em;
+  background: var(--blockquote-bg-color);
+  padding: 1em;
+  color: var(--text-color);
 }
 
 ::selection {
   background: var(--selection-bg-color);
   color: var(--selection-text-color);
   text-shadow: none;
+}
+
+.invalid-link {
+  color: rgb(132, 137, 251);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  cursor: help;
+}
+
+.invalid-link-brackets {
+  color: rgb(132, 137, 251);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  cursor: help;
 }
 
 @media (min-width: 40em) {
@@ -220,6 +236,17 @@ blockquote {
     background: var(--bg-color);
     color: var(--text-color);
   }
+
+  blockquote {
+    border-left: 0.15em solid  rgb(159, 149, 136);
+    background: rgb(46, 43, 38);
+    color: var(--bg-color);
+  }
+
+  .invalid-link,
+  .invalid-link-brackets {
+    color: rgb(159, 149, 136);
+  }
 }
 
 #upvote-form {
@@ -263,32 +290,9 @@ nav {
   padding: 0 1em;
 }
 
-.upvote-button,
-.upvote-button.upvoted {
-  color: var(--link-color) !important;
-}
-
-hr ~ p {
-  display: inline-block;
-  position: relative;
-  bottom: 0.5em;
-  margin: 0;
-}
-
-/* .backlink-box {
-  background: $color-box-background;
+.backlink-box {
+  background: var(--blockquote-bg-color);
   padding: 1em;
-  border-radius: $border-radius;
-} */
-
-.invalid-link {
-  color: #444444;
-  cursor: help;
-  background: #fafafa;
-  padding: 0 0.1em;
+  border-radius: 3px;
 }
 
-.invalid-link-brackets {
-  color: #ccc;
-  cursor: help;
-}
