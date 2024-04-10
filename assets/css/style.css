@@ -46,9 +46,18 @@ h6 {
   overflow-wrap: break-word;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
 body * + *,
 ul {
-  margin-top: 1em;
+  margin-top: 24px;
 }
 
 body {
@@ -133,19 +142,17 @@ a:hover {
   color: var(--link-hover-color);
 }
 
-a[href="https://bearblog.dev"]
-{
-  text-decoration: none;
-}
-a[href^="https://"]:not([href="https://bearblog.dev"])
-{
-  margin-right: 0.75em;
+/* SVG colors are based on theme values */
+a[href^="https://"] {
+  background-image: url('data:image/svg+xml,<svg fill="rgb(49, 57, 251)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M18 7a1 1 0 0 0-1-1H9a1 1 0 0 0 0 2h5.6l-8.3 8.3a1 1 0 0 0 0 1.4 1 1 0 0 0 1.4 0L16 9.4V15a1 1 0 0 0 1 1 1 1 0 0 0 1-1z" /></g></svg>');
+  background-position: right 30%;
+  background-size: 0.75em;
+  padding-right: 0.75em;
+  background-repeat: no-repeat;
 }
 
-a[href^="https://"]:not([href="https://bearblog.dev"])::after
-{
-  content: "↗";
-  position: absolute;
+a[href^="https://"]:hover {
+  background-image: url('data:image/svg+xml,<svg fill="rgb(32, 30, 26)" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M18 7a1 1 0 0 0-1-1H9a1 1 0 0 0 0 2h5.6l-8.3 8.3a1 1 0 0 0 0 1.4 1 1 0 0 0 1.4 0L16 9.4V15a1 1 0 0 0 1 1 1 1 0 0 0 1-1z" /></g></svg>');
 }
 
 table {
@@ -158,6 +165,18 @@ blockquote {
   background: var(--blockquote-bg-color);
   padding: 1em;
   color: var(--text-color);
+}
+
+hr {
+  border-width: 0.5px;
+  opacity: 0.1;
+  margin: 2em 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 ::selection {
@@ -180,6 +199,19 @@ blockquote {
   cursor: help;
 }
 
+.backlink-box {
+  background: var(--blockquote-bg-color);
+  padding: 1em;
+  border-radius: 3px;
+  margin-right: 1em;
+  font-size: 75%;
+}
+
+.time {
+  font-size: 0.85em;
+  opacity: 0.85;
+}
+
 @media (min-width: 40em) {
   body {
     font-size: 130%;
@@ -191,29 +223,33 @@ blockquote {
     font-size: 150%;
   }
 
-  section {
+  /* section {
     width: 45em;
-  }
+  } */
 
   article {
     display: grid;
-    grid-template-columns: 2fr 1fr;   
+    column-gap: 1.5em;
+    grid-template-columns: 66% 33%;   
     grid-template-areas: "content sidebar";
-  }
-
-  article header {
-    grid-column: 1;
-    grid-row: 1;
   }
 
   article section {
     grid-column: "content";
-    grid-row: 2;
+    grid-row: 1;
   }
 
   article aside {
+    margin-top: 0;
     grid-column: "sidebar";
-    grid-row: 2;
+    grid-row: 1;
+  }
+
+  hr {
+    left: 49%;
+    right: 66%;
+    margin-left: -33vw;
+    margin-right: -66vw;
   }
 }
 
@@ -230,7 +266,10 @@ blockquote {
   a:hover {
     color: var(--bg-color);
   }
-
+  a[href^="https://"],
+  a[href^="https://"] {
+    background-image: url('data:image/svg+xml,<svg fill="rgb(234, 220, 201" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M18 7a1 1 0 0 0-1-1H9a1 1 0 0 0 0 2h5.6l-8.3 8.3a1 1 0 0 0 0 1.4 1 1 0 0 0 1.4 0L16 9.4V15a1 1 0 0 0 1 1 1 1 0 0 0 1-1z" /></g></svg>');
+  }
   pre,
   code {
     background: var(--bg-color);
@@ -239,6 +278,11 @@ blockquote {
 
   blockquote {
     border-left: 0.15em solid  rgb(159, 149, 136);
+    background: rgb(46, 43, 38);
+    color: var(--bg-color);
+  }
+
+  .backlink-box {
     background: rgb(46, 43, 38);
     color: var(--bg-color);
   }
@@ -281,6 +325,7 @@ blockquote {
 
 .title,
 nav {
+  margin-bottom: 1.5em;
   display: inline-block;
 }
 .footnotes {
@@ -288,11 +333,5 @@ nav {
 }
 .footnotes ol {
   padding: 0 1em;
-}
-
-.backlink-box {
-  background: var(--blockquote-bg-color);
-  padding: 1em;
-  border-radius: 3px;
 }
 

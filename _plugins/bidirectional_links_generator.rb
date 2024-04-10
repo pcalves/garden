@@ -61,19 +61,24 @@ class BidirectionalLinksGenerator < Jekyll::Generator
       # links by greying them out and changing the cursor
       # Still need to find a way to exclude from codeblocks with ```
       current_note.content = current_note.content.gsub(
-        /
-        (?:^\[{2}.|\s{1}\[{2}) # Starting with [[ on newline or preceded by space
-        ([^\]]+) # Capture entire filename
-        \]{2} # Make sure it ends in ]]
-        (?!.*?[\r\n]+[`{3,}|~{3,}]) # Exclude codeblocks
-        /x, # match on the remaining double-bracket links
+        /\[\[(.+?)\|(.+?)\]\]/,
         <<~HTML.chomp    # replace with this HTML (\\1 is what was inside the brackets)
-          <span title='There is no note that matches this link.' class='invalid-link'>
-            <span class='invalid-link-brackets'>[[</span>
-            \\1
-            <span class='invalid-link-brackets'>]]</span></span>
+          <span title='There is no note that matches this link.' class='invalid-link'>\\1</span>
         HTML
       )
+      # current_note.content = current_note.content.gsub(
+      #   /
+      #   (?:^\[{2}.|\s{1}\[{2}) # Starting with [[ on newline or preceded by space
+      #   ([^\]]+) # Capture entire filename
+      #   \]{2} # Make sure it ends in ]]
+      #   (?!.*?[\r\n]+[`{3,}|~{3,}]) # Exclude codeblocks
+      #   /x, # match on the remaining double-bracket links
+      #   <<~HTML.chomp    # replace with this HTML (\\1 is what was inside the brackets)
+      #     <span title='There is no note that matches this link.' class='invalid-link'>
+      #       \\1
+      #     </span>
+      #   HTML
+      # )
     end
 
     # Identify note backlinks and add them to each note
