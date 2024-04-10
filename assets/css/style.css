@@ -199,12 +199,17 @@ hr {
   cursor: help;
 }
 
+.backlink-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1em;
+}
+
 .backlink-box {
+  margin: 0;
   background: var(--blockquote-bg-color);
   padding: 1em;
   border-radius: 3px;
-  margin-right: 1em;
-  font-size: 75%;
 }
 
 .time {
@@ -215,6 +220,14 @@ hr {
 @media (min-width: 40em) {
   body {
     font-size: 130%;
+  }
+
+  .backlink-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .backlink-box {
+    font-size: 87.5%;
   }
 }
 
@@ -250,6 +263,15 @@ hr {
     right: 66%;
     margin-left: -33vw;
     margin-right: -66vw;
+  }
+
+  .backlink-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .backlink-box {
+    margin-right: 1em;
+    font-size: 75%;
   }
 }
 

@@ -19,12 +19,14 @@ layout: default
 <aside>
   {% if page.backlinks.size > 0 %}
   <h5>Notes mentioning this note</h5>
+  <div class="backlink-container">
     {% for backlink in page.backlinks %}
     <div class="backlink-box">
       <a href="{{ backlink.url }}">{{ backlink.title }}</a>
       <p>{{ backlink.excerpt | markdownify | strip_html | truncatewords: 20 }}</p>
       </div>
     {% endfor %}
+  </div>
   {% endif %}
 </aside>
 </article>
