@@ -6,15 +6,16 @@ id: home
 {% if site.notes.last %}
 # Latest
 
-> # {{ site.notes.last.title }}
-> 
-> <time datetime="{{ sites.notes.last.last_modified_at | date_to_xmlschema }}">
->   {{ site.notes.last.last_modified_at | date: "%Y-%m-%d" }}
-> </time>
-> 
-> {{ site.notes.last.content | markdownify | strip_html | truncatewords: 50 }}
-> 
-> <a class="internal-link" href="{{ site.notes.last.url }}">Read more</a>
+<blockquote>
+<h2>{{ site.notes.last.title }}</h2>
+
+<time datetime="{{ sites.notes.last.last_modified_at | date_to_xmlschema }}">
+  {{ site.notes.last.last_modified_at | date: "%Y-%m-%d" }}
+</time>
+
+<p>{{ site.notes.last.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
+<p><a class="internal-link" href="{{ site.notes.last.url }}">Read more</a></p>
+</blockquote>
 {% endif %}
 
 

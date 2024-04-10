@@ -5,13 +5,12 @@ layout: default
 <article>
   <header>
     <h1>{{ page.title }}</h1>
-  </header>
   <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}Last updated {{
     page.last_modified_at | date: "%B %-d, %Y" }}{% endif %}</time>{% if page.category != null %} &ndash;
-  {{page.category}}{% endif %}</p>
+  {{page.category}}{% endif %}
   </header>
-  <section>
 
+  <section>
   {{ content }}
 </section>
 
@@ -19,10 +18,10 @@ layout: default
   <h5>Notes mentioning this note</h5>
   {% if page.backlinks.size > 0 %}
     {% for backlink in page.backlinks %}
-    <blockquote>
+    <div class="backlink-box">
       <a href="{{ backlink.url }}">{{ backlink.title }}</a>
-      <p>{{ backlink.excerpt | strip_html | truncatewords: 20 }}</p>
-    </blockquote>
+      <p>{{ backlink.excerpt | markdownify | strip_html | truncatewords: 20 }}</p>
+      </div>
     {% endfor %}
   {% else %}
 
