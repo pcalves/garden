@@ -1,0 +1,30 @@
+{% assign maxRelated = 4 %}
+{% assign minCommonTags = 2 %}
+{% assign maxRelatedCounter = 0 %}
+
+<hr />
+<h4>Related Notes or Links</h4>
+
+<ul>
+    {% for note in site.notes %}
+    {% assign sameTagCount = 0 %}
+    {% for tag in note.tags %}
+    {% if note.url != page.url and page.tags contains tag %}
+    {% assign sameTagCount = sameTagCount | plus: 1 %}
+    {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+    {% if note.source %}
+    {% assign noteUrl = note.source %}
+    {% else %}
+    {% assign noteUrl = note.url %}
+    {% endif %}
+    <li><a href="{{ noteUrl }}">{{ note.name | remove: '.md' }}</a></li>
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+    {% if maxRelatedCounter >= maxRelated %}
+    {% break %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</ul>
