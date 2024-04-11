@@ -9,7 +9,7 @@ id: home
 <h1>Latest</h1>
 
 <blockquote>
-<h2>{{ site.notes.last.title }}</h2>
+<h2>{{ site.notes.last.name | remove: '.md' }}</h2>
 
 <p class="time">
 <time datetime="{{ sites.notes.last.last_modified_at | date_to_xmlschema }}">
@@ -44,9 +44,19 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 {% for note in recent_notes %}
 {% unless note.tags and (note.tags contains "people" or note.tags contains "books" or note.tags contains "clippings") %}
 <p>
-<a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+<a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.name | remove: '.md' }}</a>
 </p>
 {% endunless %}
+{% endfor %}
+
+<hr/>
+
+<h1>Links</h1>
+{% assign links = site.notes | where_exp: "note", "note.tags contains 'clippings'" | sort: "last_modified_at_timestamp" |reverse %}
+{% for note in links %}
+<p>
+<a href="{{ note.source }}">{{ note.name | remove: '.md' }}</a>
+</p>
 {% endfor %}
 </section>
 </article>

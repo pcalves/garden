@@ -168,6 +168,7 @@ blockquote {
 }
 
 hr {
+  border-color: var(--text-color);
   border-width: 0.5px;
   opacity: 0.1;
   margin: 2em 0;
@@ -313,36 +314,10 @@ hr {
   .invalid-link-brackets {
     color: rgb(159, 149, 136);
   }
-}
 
-#upvote-form {
-  display: block !important;
-}
-
-.blog-posts {
-  padding: 0;
-  list-style: none;
-}
-
-.blog-posts a {
-  margin-top: 0;
-}
-
-.blog-posts li {
-  display: flex;
-  max-width: 50em;
-}
-
-.blog-posts li span {
-  flex-shrink: 0;
-}
-
-.blog-posts li time {
-  margin-right: 0.9em;
-}
-
-.tags {
-  display: none;
+  hr {
+    border-color: var(--bg-color);
+  }
 }
 
 .title,
