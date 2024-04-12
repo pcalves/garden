@@ -2,7 +2,7 @@
 type: "[[People]]"
 tags:
   - people
-  - writer
+  - writers
 source: https://www.orwellfoundation.com/
 share: true
 ---
