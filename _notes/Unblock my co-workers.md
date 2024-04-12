@@ -3,8 +3,8 @@ type:
   - "[[Notes|Notes]]"
 tags:
   - notes
-  - process
-  - work
+  - processes
+  - working
 created: 2024-03-27
 share: true
 ---
