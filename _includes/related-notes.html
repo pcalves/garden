@@ -20,7 +20,7 @@
     {% else %}
     {% assign noteUrl = note.url %}
     {% endif %}
-    <li><a href="{{ noteUrl }}">{{ note.name | remove: '.md' }}</a></li>
+    <li><a href="{{ noteUrl }}">{{ note.title }}</a></li>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
     {% if maxRelatedCounter >= maxRelated %}
     {% break %}
