@@ -3,8 +3,8 @@ type:
   - "[[People|People]]"
 tags:
   - people
-  - writer
-  - creator
+  - writers
+  - creators
 source: https://taylor.town/
 share: true
 ---
