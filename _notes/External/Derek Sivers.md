@@ -2,9 +2,9 @@
 type:
   - "[[People|People]]"
 tags:
-  - writer
-  - thinker
-  - nontrepeneur
+  - writers
+  - thinkers
+  - nontrepeneurs
   - people
 contact: d@sive.rs
 source: https://sive.rs
