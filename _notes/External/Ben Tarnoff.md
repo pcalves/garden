@@ -1,7 +1,7 @@
 ---
 type: "[[People]]"
 tags:
-  - writer
+  - writers
   - internet
   - culture
   - people
