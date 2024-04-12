@@ -2,7 +2,7 @@
 type: "[[People]]"
 tags:
   - people
-  - writer
+  - writers
   - self-improvement
 source: https://jamesclear.com/
 share: true

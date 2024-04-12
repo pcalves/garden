@@ -1,8 +1,8 @@
 ---
 type: "[[People]]"
 tags:
-  - writer
-  - journalist
+  - writers
+  - journalists
   - people
 contact: 
 source: https://www.davidgrann.com/

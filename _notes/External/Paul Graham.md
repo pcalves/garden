@@ -4,7 +4,7 @@ type:
 tags:
   - people
   - writing
-  - entrepeneur
+  - entrepeneurs
 contact: https://twitter.com/paulg
 source: https://www.paulgraham.com/
 share: true

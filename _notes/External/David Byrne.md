@@ -2,8 +2,9 @@
 type: "[[People]]"
 title: David Byrne
 tags:
-  - musician
-  - writer
+  - artists
+  - musicians
+  - writers
   - people
 contact: 
 source: https://davidbyrne.com/

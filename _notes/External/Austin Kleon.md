@@ -1,7 +1,8 @@
 ---
 type: "[[People]]"
 tags:
-  - writer
+  - artists
+  - writers
   - people
 contact: austin@austinkleon.com
 source: https://austinkleon.com/

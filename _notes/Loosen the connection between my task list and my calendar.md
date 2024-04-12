@@ -3,7 +3,7 @@ type:
   - "[[Notes|Notes]]"
 tags:
   - notes
-  - process
+  - processes
   - management
 created: 2024-04-01
 share: true

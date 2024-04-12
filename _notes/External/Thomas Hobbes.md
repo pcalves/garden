@@ -3,7 +3,7 @@ type:
   - "[[People|People]]"
 tags:
   - people
-  - writer
+  - writers
   - philosophy
 source: https://en.wikipedia.org/wiki/Thomas_Hobbes
 share: true

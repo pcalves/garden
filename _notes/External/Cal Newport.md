@@ -1,7 +1,7 @@
 ---
 type: "[[People]]"
 tags:
-  - writer
+  - writers
   - people
 contact: 
 source: https://calnewport.com/

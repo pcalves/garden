@@ -2,9 +2,9 @@
 type:
   - "[[People|People]]"
 tags:
-  - writer
-  - thinker
-  - researcher
+  - writers
+  - thinkers
+  - researchers
   - people
 contact: andy@andymatuschak.org
 source: https://andymatuschak.org/

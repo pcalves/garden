@@ -3,8 +3,8 @@ type:
   - "[[People|People]]"
 tags:
   - people
-  - writer
-  - thinker
+  - writers
+  - thinkers
 contact: 
 source: http://www.susansontag.com/
 share: true

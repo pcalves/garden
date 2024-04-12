@@ -4,7 +4,7 @@ type:
 tags:
   - pkm
   - writing
-  - process
+  - processes
   - notes
 share: true
 ---
