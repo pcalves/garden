@@ -3,10 +3,10 @@ type:
   - "[[People|People]]"
 tags:
   - people
-  - creator
-  - leader
-  - writer
-  - thinker
+  - creators
+  - leaders
+  - writers
+  - thinkers
 contact: https://mastodon.social/@kepano
 source: https://stephango.com/
 share: true
