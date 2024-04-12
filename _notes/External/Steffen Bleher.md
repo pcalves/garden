@@ -3,8 +3,7 @@ type:
   - "[[People|People]]"
 tags:
   - people
-  - writer
-  - entrepeneur
+  - entrepeneurs
 contact: https://twitter.com/steffenBle
 source: https://github.com/sbleh
 share: true
