@@ -4,7 +4,7 @@ type:
 tags:
   - notes
   - productivity
-  - process
+  - processes
 created: 2024-03-27
 share: true
 ---
