@@ -2,9 +2,8 @@
 type:
   - "[[People|People]]"
 tags:
-  - developer
+  - developers
   - people
-  - internet
 contact: vitaly.pushkar@gmail.com
 source: http://nywkap.com/
 share: true
