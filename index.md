@@ -48,7 +48,7 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 </p>
 {% endunless %}
 {% endfor %}
-name | remove: '.md'
+
 <hr/>
 
 <h1>Links</h1>
