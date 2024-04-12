@@ -31,7 +31,7 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 <div>
 {% for tag in tags %}
 {% unless tag == "people" or tag == "books" or tag == "clippings" or tag == "notes" %}
-<a class="tag" href="#{{tag}}" target="_self">{{ tag | replace: "-", "&nbsp;" }}</a>{% unless forloop.last %}, {% endunless %}
+<a class="tag" href="/tags/{{tag}}" target="_self">{{ tag | replace: "-", "&nbsp;" }}</a>{% unless forloop.last %}, {% endunless %}
 {% endunless %}
 {% endfor %}
 </div>

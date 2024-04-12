@@ -40,6 +40,10 @@ collections:
     output: true
     permalink: /:slug
 
+  tags:
+    output: true
+    permalink: /tags/:slug
+
 defaults:
   - scope:
       path: "**/*"
@@ -49,3 +53,7 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  - scope:
+      path: "_tags/*.md"
+    values:
+      layout: "tag"

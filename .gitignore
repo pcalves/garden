@@ -12,10 +12,8 @@ vendor/
 # Notes graph metadata
 _includes/notes_graph.json
 
-# Obsidian config
-.obsidian/
-unlinked files output.md
-unresolved links output.md
+# Generated tags
+_tags/
 
 # MacOS System Files
 .DS_Store
