@@ -8,7 +8,7 @@ published:
 topics: 
 tags:
   - clippings
-  - research
+  - researching
   - kankyo-ongaku
 share: true
 ---
