@@ -5,6 +5,7 @@ tags:
   - privacy
   - pkm
   - software
+status: Written on a day that the software went offline for a couple of hours. It may have improved on that front since then, and it was/is a good application in many ways not listed here.
 share: true
 ---
 
