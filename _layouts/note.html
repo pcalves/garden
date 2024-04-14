@@ -11,6 +11,11 @@ layout: default
         page.last_modified_at | date: "%B %-d, %Y" }}{% endif %}</time>{% if page.category != null %} &ndash;
       {{page.category}}{% endif %}
       </p>
+      {%if page.status %}
+      <div class="status">
+        <a href="/epistemic-status">Epistemic status</a>: {{ page.status }}
+      </div>
+      {% endif %}
     </header>
 
     {{ content }}

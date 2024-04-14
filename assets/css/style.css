@@ -213,6 +213,15 @@ hr {
   border-radius: 3px;
 }
 
+.status {
+  width: fit-content;
+  border: 0.1em solid var(--link-color);
+  background: var(--blockquote-bg-color);
+  padding: 1em;
+  color: var(--text-color);
+  font-family: monospace;
+}
+
 .time {
   font-size: 0.85em;
   opacity: 0.85;
@@ -229,6 +238,10 @@ hr {
 
   .backlink-box {
     font-size: 87.5%;
+  }
+
+  .status {
+    font-size: 75%;
   }
 }
 
@@ -305,6 +318,7 @@ hr {
     color: var(--bg-color);
   }
 
+  .status,
   .backlink-box {
     background: rgb(46, 43, 38);
     color: var(--bg-color);
