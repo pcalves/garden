@@ -4,7 +4,7 @@ type:
 author: 
 title: Omnivore
 source: https://omnivore.app/
-clipped: 2024-03-27
+created: 2024-03-27
 published: 
 topics: []
 tags:
