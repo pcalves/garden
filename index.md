@@ -40,7 +40,7 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 <hr/>
 
 <h1>Notes</h1>
-{% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" |reverse %}
+{% assign recent_notes = site.notes | sort: "created" |reverse %}
 {% for note in recent_notes %}
 {% unless note.tags and (note.tags contains "people" or note.tags contains "books" or note.tags contains "clippings") %}
 <p>
