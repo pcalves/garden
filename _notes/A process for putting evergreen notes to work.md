@@ -6,6 +6,7 @@ tags:
   - writing
   - notes
 status: Needs more work. I'm not sure how much I should even focus on distilling notes into posts for now.
+created: 2024-03-25
 share: true
 ---
 
