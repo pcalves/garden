@@ -6,6 +6,7 @@ tags:
   - notes
 status: Basic definition. There's probably more to be said and thought of on this subject, but having the basic tenets down felt worthwhile at the time.
 share: true
+created: 2024-03-25
 ---
 
 Originally came upon this in [[Austin Kleon|Austin Kleon]]'s blog post entitled [Basic pleasantries](https://austinkleon.com/2024/03/15/basic-pleasantries/), where the author writes:
