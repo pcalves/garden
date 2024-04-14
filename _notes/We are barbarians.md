@@ -5,6 +5,7 @@ tags:
   - history
 status: Distilled from a couple of recent reads. Kind of undeveloped.
 share: true
+created: 2024-03-02
 ---
 
 Having read [[The Wager: A Tale of Shipwreck, Mutiny and Murder|The Wager: A Tale of Shipwreck, Mutiny and Murder]], and currently reading through [[Palo Alto: A History of California, Capitalism, and the World|Palo Alto: A History of California, Capitalism, and the World]], I've come to a simple conclusion: we are a species of barbarians. The goal posts continuosly shift and the needle sometimes move in the right way. But look back only a few decades and you will find practices, customs and norms that will strike you as barbaric. Look to the present, and you may feel much the same. 
