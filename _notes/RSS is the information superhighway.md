@@ -7,6 +7,7 @@ tags:
   - rss
 status: A bit rambling, but I tend to do that when passionate about a subject.
 share: true
+created: 2024-03-25
 ---
 
 Sometimes it’s nice to zip by, sometimes you take an exit and enjoy the scenery, get lost for a while.
