@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: "[[Steph Ango]]"
 title: Home - Minimal Documentation
 source: https://minimal.guide/home
-clipped: 2024-03-26
+created: 2024-03-26
 published: 
 topics: 
 tags:
