@@ -3,6 +3,7 @@ type:
   - "[[Notes|Notes]]"
 tags:
   - philosophy
+status: I'm no philosopher but found this concept interesting in the context of the book that referenced it.
 share: true
 ---
 
