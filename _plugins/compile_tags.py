@@ -7,7 +7,7 @@ TAG_DIR = '_tags/'
 
 # Collect all tags from all posts.
 all_tags = []
-for fname in glob.glob(POST_DIR + '**/*.md'):
+for fname in glob.glob(POST_DIR + '**/*.md', recursive=True):
   with open(fname, 'r') as f:
     note = frontmatter.load(f)
   all_tags += note['tags']
