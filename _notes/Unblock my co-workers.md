@@ -6,6 +6,7 @@ tags:
   - processes
   - working
 created: 2024-03-27
+status: Compiled from 7+ years of work at a remote-only company, but definitely not a comprehensive or definitive list.
 share: true
 ---
 
