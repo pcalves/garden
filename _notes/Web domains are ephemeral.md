@@ -4,6 +4,7 @@ type:
 tags:
   - internet
 share: true
+created: 2024-02-18
 ---
 
 ## Web domains are ephemeral
