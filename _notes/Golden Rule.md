@@ -4,6 +4,7 @@ type:
 tags:
   - kindness
   - notes
+status: Basic definition. There's probably more to be said and thought of on this subject, but having the basic tenets down felt worthwhile at the time.
 share: true
 ---
 
