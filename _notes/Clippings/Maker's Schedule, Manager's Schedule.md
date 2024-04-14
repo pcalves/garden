@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: "[[Paul Graham]]"
 title: Maker's Schedule, Manager's Schedule
 source: https://paulgraham.com/makersschedule.html
-clipped: 2024-02-28
+created: 2024-02-28
 published: 2009-07-01
 topics: 
 tags:
