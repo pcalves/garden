@@ -5,6 +5,7 @@ tags:
   - the-cheap-web
   - environment
   - nature
+status: Mostly placeholder. Deserves a lot more time and attention. Has been sitting at the back of my head for a while.
 share: true
 ---
 
