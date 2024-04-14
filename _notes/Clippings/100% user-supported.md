@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: "[[Steph Ango]]"
 title: 100% user-supported
 source: https://stephango.com/vcware
-clipped: 2024-03-27
+created: 2024-03-27
 published: 2024-02-10
 topics: []
 tags:

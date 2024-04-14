@@ -4,7 +4,7 @@ type:
 author: "[[Austin Kleon]]"
 title: Slow learning
 source: https://austinkleon.com/2023/03/21/slow-learning/
-clipped: 2024-03-26
+created: 2024-03-26
 published: 2023-03-21
 topics: []
 tags:

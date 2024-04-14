@@ -4,7 +4,7 @@ type:
 author: 
 title: Opinion | This Year, Change Your Mind (Published 2011)
 source: https://www.nytimes.com/2011/01/01/opinion/01sacks.html
-clipped: 2024-03-01
+created: 2024-03-01
 published: 2011-01-01
 topics: []
 tags:

@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: 
 title: Learning pyramid - Wikipedia
 source: https://en.wikipedia.org/wiki/Learning_pyramid
-clipped: 2024-04-01
+created: 2024-04-01
 published: 
 topics: 
 tags:

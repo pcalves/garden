@@ -4,7 +4,7 @@ type:
 author: "[[Mike Tannenbaum]]"
 title: Obsidian Jekyll workflow
 source: https://refinedmind.co/obsidian-jekyll-workflow
-clipped: 2024-03-28
+created: 2024-03-28
 published: 2021-08-15
 topics: 
 tags:

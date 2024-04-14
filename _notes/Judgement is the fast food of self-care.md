@@ -7,6 +7,7 @@ tags:
   - notes
 status: Written from my own experience, perspective and observations.
 share: true
+created: 2024-03-25
 ---
 
 When your have issues with your own image, your own thoughts or feelings, it's tempting to rely on judgement to assuage them. Judging strangers on the street or on the Internet, or even acquaintances, friends or family has an immediate and measurable effect. A quick boost of the self at the expense of how you see others.

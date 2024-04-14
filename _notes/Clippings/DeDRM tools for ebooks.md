@@ -4,7 +4,7 @@ type:
 author: 
 title: "noDRM/DeDRM_tools: DeDRM tools for ebooks"
 source: https://github.com/nodrm/DeDRM_tools
-clipped: 2024-03-27
+created: 2024-03-27
 published: 
 topics: []
 tags:

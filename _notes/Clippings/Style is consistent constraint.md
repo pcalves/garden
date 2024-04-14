@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: "[[Steph Ango]]"
 title: Style is consistent constraint
 source: https://stephango.com/style
-clipped: 2024-03-27
+created: 2024-03-27
 published: 2023-09-03
 topics: 
 tags:

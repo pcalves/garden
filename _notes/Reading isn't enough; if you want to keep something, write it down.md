@@ -6,6 +6,7 @@ tags:
   - writing
 status: A bit unsure about using the Learning pyramid as a reference.
 share: true
+created: 2024-03-24
 ---
 
 See [[Learning pyramid|Learning pyramid]] for some (slightly questionable) research on how engaging with the same material in different ways affects knowledge retention.

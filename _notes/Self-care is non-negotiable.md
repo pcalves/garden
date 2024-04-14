@@ -6,6 +6,7 @@ tags:
   - self-care
 status: Written from my own perspective and from a position of relative privilege.
 share: true
+created: 2024-03-25
 ---
 
 Make time for yourself. Even if there's someone in your life that _will_ do it for you, do not make it their job. Take care of yourself and you allow others to take care of themselves as well. Think of the times where you worried about someone. Maybe you questioned their habits, their vices, their wellbeing? In doing so, you had less time and energy to look to yourself.

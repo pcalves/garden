@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: 
 title: Rediscovering Haruomi Hosono's Watering a Flower
 source: https://filmstatic.blogspot.com/2017/09/rediscovering-haruomi-hosonos-watering.html
-clipped: 2024-03-27
+created: 2024-03-27
 published: 
 topics: 
 tags:

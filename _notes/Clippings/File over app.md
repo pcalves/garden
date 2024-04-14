@@ -4,7 +4,7 @@ type:
 author: "[[Steph Ango]]"
 title: File over app
 source: https://stephango.com/file-over-app
-clipped: 2024-03-25
+created: 2024-03-25
 published: 2023-07-01
 topics: 
 tags:

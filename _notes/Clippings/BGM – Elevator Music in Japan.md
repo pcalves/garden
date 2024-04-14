@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: 
 title: ‘BGM’ – Elevator Music in Japan
 source: https://pen-online.com/culture/bgm-elevator-music-in-japan/?scrolled=2
-clipped: 2024-03-12
+created: 2024-03-12
 published: 
 topics: 
 tags:

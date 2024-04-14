@@ -6,6 +6,7 @@ tags:
   - notes
 status: Still working through the best way to work. Time blocking is a relatively new wayt of working for me.
 share: true
+created: 2024-03-21
 ---
 
 Time blocking is the concept of breaking down the work day into slots for different tasks. While using time blocking, your calendar should appear fully booked for the duration of the working day.
