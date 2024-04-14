@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: "[[Andy Matuschak]]"
 title: Andyʼs working notes
 source: https://notes.andymatuschak.org/
-clipped: 2024-03-21
+created: 2024-03-21
 published: 
 topics: []
 tags:
