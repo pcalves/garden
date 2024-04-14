@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: 
 title: Welcome to Quartz 4
 source: https://quartz.jzhao.xyz/
-clipped: 2024-03-26
+created: 2024-03-26
 published: 
 topics: 
 tags:
