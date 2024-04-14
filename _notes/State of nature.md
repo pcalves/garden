@@ -5,6 +5,7 @@ tags:
   - philosophy
 status: I'm no philosopher but found this concept interesting in the context of the book that referenced it.
 share: true
+created: 2024-03-10
 ---
 
 [[Thomas Hobbes|Thomas Hobbes]] defines the state of nature as a "war as is of every man against every man", with each individual possessing the right to do anything they think necessary to preserve their own life. Life in that state, thus, is "solitary, poor, [nasty, brutish, and short](https://en.wikipedia.org/wiki/Nasty,_brutish,_and_short "Nasty, brutish, and short")"
