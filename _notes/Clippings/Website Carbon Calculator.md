@@ -4,7 +4,7 @@ type:
 author: ""
 title: Website Carbon Calculator v3 | What's your site's carbon footprint?
 source: https://www.websitecarbon.com/
-clipped: 2024-03-20
+created: 2024-03-20
 published: 
 topics: []
 tags:
