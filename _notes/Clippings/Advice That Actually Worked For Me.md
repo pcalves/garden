@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: Nabeel S. Qureshi
 title: Advice That Actually Worked For Me
 source: https://nabeelqu.substack.com/p/advice
-clipped: 2024-02-29
+created: 2024-02-29
 published: 2023-07-11
 topics: 
 tags:
