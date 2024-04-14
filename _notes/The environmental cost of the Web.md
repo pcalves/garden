@@ -7,6 +7,7 @@ tags:
   - nature
 status: Mostly placeholder. Deserves a lot more time and attention. Has been sitting at the back of my head for a while.
 share: true
+created: 2024-03-11
 ---
 
 > The Internet emits CO₂ – and more than you might think. Storing data on servers, processing them, answering users’ requests, having the infrastructure required to transfer data, antennas, repeaters, routers, signal amplifiers, CDNs, modems, all the way to the energy used by the final device to view the page. And more: there is also the cost of the equipment itself, and of its constant renewal in the race for technological advancement, encouraged by the increased will to function in the digital world.
