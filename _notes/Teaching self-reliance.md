@@ -6,6 +6,7 @@ tags:
   - parenting
   - growth
 created: 2024-04-06
+status: I know just as much as the next parent, maybe less. Everybody's winging it.
 share: true
 ---
 
