@@ -5,6 +5,7 @@ tags:
   - writing
   - pkm
   - notes
+status: A very barebones description for a concept that is better established in my head than it is here. Others have written about it at length and I'm not sure I have a lot to add on the subject.
 share: true
 ---
 
