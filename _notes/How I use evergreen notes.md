@@ -7,6 +7,7 @@ tags:
   - notes
 status: This one was written for myself and my change as the process is adopted and adapted to my own needs.
 share: true
+created: 2024-04-25
 ---
 
 [[Evergreen notes|Evergreen notes]] are a great tool for capturing ideas. those can come from without, as I apply the concepts of [[Reading isn't enough; if you want to keep something, write it down|Reading isn't enough; if you want to keep something, write it down]], or sometime down the road, as the brain builds new connections.
