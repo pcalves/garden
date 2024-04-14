@@ -4,6 +4,7 @@ type:
 tags:
   - reading
   - pkm
+status: Easier said than done. This is a hard habit to adopt.
 share: true
 ---
 

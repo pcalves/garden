@@ -5,6 +5,7 @@ tags:
   - writing
   - pkm
   - notes
+status: This one was written for myself and my change as the process is adopted and adapted to my own needs.
 share: true
 ---
 

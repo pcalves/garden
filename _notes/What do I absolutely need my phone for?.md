@@ -4,6 +4,7 @@ type:
 tags:
   - notes
 created: 2024-04-02
+status: Extremely personal, take anything from it if it resonates with you.
 share: true
 ---
 

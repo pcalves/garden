@@ -3,6 +3,7 @@ type:
   - "[[Notes|Notes]]"
 tags:
   - writing
+status: Needs to be fleshed out.
 share: true
 ---
 

@@ -5,6 +5,7 @@ tags:
   - notes
   - digital-gardens
 created: 2024-03-28
+status: Many others have written at length about digital gardens. This is more about my own process of setting one up.
 share: true
 ---
 

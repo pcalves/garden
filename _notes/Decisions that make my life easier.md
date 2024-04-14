@@ -6,6 +6,7 @@ tags:
   - personal
   - lists
 created: 2024-03-27
+status: Always a work in progress. Isn't mean to be perscriptive of dogmatic, but feel free to take anything and make it yours.
 share: true
 ---
 

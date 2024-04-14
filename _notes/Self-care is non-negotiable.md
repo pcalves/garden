@@ -4,6 +4,7 @@ type:
 tags:
   - notes
   - self-care
+status: Written from my own perspective and from a position of relative privilege.
 share: true
 ---
 

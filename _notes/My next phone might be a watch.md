@@ -5,6 +5,7 @@ tags:
   - notes
   - technology
 created: 2024-04-09
+status: Kind of an out-there idea that I thought was worth capturing.
 share: true
 ---
 

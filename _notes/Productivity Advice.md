@@ -6,6 +6,7 @@ tags:
   - productivity
   - self-improvement
 created: 2024-02-29
+status: Taken from the linked article and written in my own words.
 share: true
 ---
 

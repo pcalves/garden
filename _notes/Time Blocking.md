@@ -4,6 +4,7 @@ type:
 tags:
   - productivity
   - notes
+status: Still working through the best way to work. Time blocking is a relatively new wayt of working for me.
 share: true
 ---
 

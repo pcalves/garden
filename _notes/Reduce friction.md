@@ -6,6 +6,7 @@ tags:
   - productivity
   - processes
 created: 2024-03-27
+status: Mostly placeholder.
 share: true
 ---
 

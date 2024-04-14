@@ -5,6 +5,7 @@ tags:
   - the-good-web
   - internet
   - rss
+status: A bit rambling, but I tend to do that when passionate about a subject.
 share: true
 ---
 

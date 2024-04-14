@@ -5,6 +5,7 @@ tags:
   - notes
   - imagination
 created: 2024-04-07
+status: This deserves some research. I wonder how others feel about this, if there's any studies done on it, etc.
 share: true
 ---
 

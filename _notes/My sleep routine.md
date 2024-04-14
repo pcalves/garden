@@ -7,6 +7,7 @@ tags:
   - sleep
   - notes
 created: 2024-03-16
+status: This has been derived by some research a lot of personal experimentation. Take it with a grain of salt, but some of the points here are well-established best practices.
 share: true
 ---
 

@@ -4,6 +4,7 @@ type:
 tags:
   - the-good-web
   - internet
+status: Mostly placeholder.
 share: true
 ---
 

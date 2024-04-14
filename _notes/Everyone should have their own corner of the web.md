@@ -5,6 +5,7 @@ tags:
   - internet
   - indie-web
   - notes
+status: I feel very strongly about this, enough that this merits a lot more words.
 share: true
 ---
 

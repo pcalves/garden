@@ -6,6 +6,7 @@ tags:
   - software
   - notes
 created: 2024-03-25
+status: Short but to the point. Obviously opinionated.
 share: true
 ---
 

@@ -3,6 +3,7 @@ type:
   - "[[Notes|Notes]]"
 tags:
   - history
+status: Distilled from a couple of recent reads. Kind of undeveloped.
 share: true
 ---
 

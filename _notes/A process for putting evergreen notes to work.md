@@ -5,6 +5,7 @@ tags:
   - pkm
   - writing
   - notes
+status: Needs more work. I'm not sure how much I should even focus on distilling notes into posts for now.
 share: true
 ---
 
@@ -17,10 +18,3 @@ This works but it has a couple of problems:
 1. Evergreen notes are, by definition, never done, so making a public note out of them is merely taking a snapshot and putting it out there. [[Blog posts should be static|Blog posts should be static]]
 
 2. It puts me in the wrong mindset; an evergreen note can be rambling, contradictory. It's meant for working things out, and the process is a messy one. If I self-correct and edit too much because I'm thinking ahead of the audience that will read the note, it'll impede the process
-
-For now, my solution was to create a separate [object type in Capacities](https://capacities.io/content-types) called "Public Notes". Here's an example of one:
-
-[[Reject numbers, embrace connections|Reject numbers, embrace connections]]
-
-These can link back to the note(s) that originated it. I can even end up copying and pasting most of one, or several, evergreen notes into a public note and serving it up as is. But creating this separation highlights the *intention* behind each type of note. And in the end, it should help me think more freely and clearly.
-

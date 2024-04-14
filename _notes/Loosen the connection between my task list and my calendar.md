@@ -6,6 +6,7 @@ tags:
   - processes
   - management
 created: 2024-04-01
+status: Thinking out loud about managing my time. Trying things out.
 share: true
 ---
 
