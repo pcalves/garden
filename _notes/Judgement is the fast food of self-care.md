@@ -5,6 +5,7 @@ tags:
   - self-care
   - self-improvement
   - notes
+status: Written from my own experience, perspective and observations.
 share: true
 ---
 
