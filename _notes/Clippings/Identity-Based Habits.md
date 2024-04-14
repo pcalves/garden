@@ -4,7 +4,7 @@ type:
 author: "[[James Clear]]"
 title: "Identity-Based Habits: How to Actually Stick to Your Goals This Year"
 source: https://jamesclear.com/identity-based-habits
-clipped: 2024-03-08
+created: 2024-03-08
 published: 
 topics: 
 tags:
