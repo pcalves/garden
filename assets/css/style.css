@@ -354,3 +354,6 @@ nav {
   padding: 0 1em;
 }
 
+.list-time {
+  font-variant-numeric: tabular-nums;
+}

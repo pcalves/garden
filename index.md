@@ -11,7 +11,7 @@ id: home
 <blockquote>
 <h2>{{ site.notes.last.title }}</h2>
 
-<p class="time">
+<p class="list-time">
 <time datetime="{{ sites.notes.last.last_modified_at | date_to_xmlschema }}">
 Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 </time>
@@ -43,9 +43,9 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 {% assign recent_notes = site.notes | sort: "created" |reverse %}
 {% for note in recent_notes %}
 {% unless note.tags and (note.tags contains "people" or note.tags contains "books" or note.tags contains "clippings") %}
-<p>
+<p class="list-time">
 <time datetime="{{ note.created | date_to_xmlschema }}">
-{{ note.created | date: "%b %Y" }} • 
+{{ note.created | date: "%m / %Y" }} – 
 </time>
 <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
 </p>
@@ -59,7 +59,7 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 {% for note in links %}
 <p>
 <time datetime="{{ note.clipped | date_to_xmlschema }}">
-{{ note.clipped | date: "%b %Y" }} • 
+{{ note.clipped | date: "%m / %Y" }} –
 </time>
 <a href="{{ note.source }}">{{ note.title }}</a>
 </p>
