@@ -7,6 +7,7 @@ tags:
   - processes
   - notes
 status: I'm happy with the approached described here, even though the routine hasn't quite settled in yet.
+created: 2024-03-25
 share: true
 ---
 
