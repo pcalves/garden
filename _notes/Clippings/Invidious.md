@@ -3,7 +3,7 @@ type:
   - "[[Clippings|Clippings]]"
 title: Invidious
 source: https://invidious.io/
-clipped: 2024-02-27
+created: 2024-02-27
 published: 
 topics: []
 tags:
