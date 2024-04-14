@@ -2,7 +2,20 @@
 layout: default
 ---
 
-<h1>Notes about {{ page.title }}</h1>
+<h1>↪ on {{ page.title }}</h1>
+
+{% comment %} 
+The code below is a mess and I'm all about it. Some excellent spaghetti that
+generates a sentence that tells folks how many links and notes contain the tag.
+{% endcomment %}
+
+{% assign links_count = site.notes | where_exp: "note", "note.tags contains page.tag" | where_exp: "note", "note.source" | size %}
+{% assign notes_count = site.notes | where_exp: "note", "note.tags contains page.tag" | where: "source", nil | size %}
+
+<p>
+    There {%if links_count > 1 or links_count == 0 and notes_count > 1%}are{% else %}is{% endif %} {%if links_count > 0 %}{{ links_count }} link{% if links_count > 1%}s{% endif %}{% endif %}{% if links_count > 0 and notes_count > 0 %} and
+    {% endif %}{% if notes_count > 0 %}{{ notes_count }} note{%if notes_count > 1 %}s{% endif %}{% endif %} on this topic.
+</p>
 
 <ul class="posts">
     {% for note in site.notes %}
