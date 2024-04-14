@@ -6,6 +6,7 @@ tags:
   - self-care
 status: A bit esoteric and ill-defined, but I stand by the point made here.
 share: true
+created: 2024-03-25
 ---
 
 We often speak of time as if it's short or long. We don't have enough time for something, or, time stretches on forever.
