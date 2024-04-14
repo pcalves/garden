@@ -44,6 +44,9 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 {% for note in recent_notes %}
 {% unless note.tags and (note.tags contains "people" or note.tags contains "books" or note.tags contains "clippings") %}
 <p>
+<time datetime="{{ note.created | date_to_xmlschema }}">
+{{ note.created | date: "%b %Y" }} • 
+</time>
 <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
 </p>
 {% endunless %}
@@ -52,9 +55,12 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 <hr/>
 
 <h1>Links</h1>
-{% assign links = site.notes | where_exp: "note", "note.tags contains 'clippings'" | sort: "last_modified_at_timestamp" |reverse %}
+{% assign links = site.notes | where_exp: "note", "note.tags contains 'clippings'" | sort: "clipped" | reverse %}
 {% for note in links %}
 <p>
+<time datetime="{{ note.clipped | date_to_xmlschema }}">
+{{ note.clipped | date: "%b %Y" }} • 
+</time>
 <a href="{{ note.source }}">{{ note.title }}</a>
 </p>
 {% endfor %}
