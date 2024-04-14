@@ -4,6 +4,7 @@ type:
 tags:
   - notes
 created: 2024-04-01
+status: Mostly a placeholder for a thought that needs further development.
 share: true
 ---
 
