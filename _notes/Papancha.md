@@ -4,6 +4,7 @@ type:
 tags:
   - self-improvement
   - mindfulness
+status: Not much more than the dictionary definition here.
 share: true
 ---
 
