@@ -4,6 +4,7 @@ type:
 tags:
   - reading
   - writing
+status: A bit unsure about using the Learning pyramid as a reference.
 share: true
 ---
 
