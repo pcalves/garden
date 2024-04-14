@@ -4,7 +4,7 @@ type:
 author: "[[Maxime Vaillancourt]]"
 title: Setting up your own digital garden with Jekyll
 source: https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll
-clipped: 2024-03-28
+created: 2024-03-28
 published: 2020-05-20
 topics: 
 tags:
