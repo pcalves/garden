@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: "[[Maggie Appleton]]"
 title: "MaggieAppleton/digital-gardeners: Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs"
 source: https://github.com/maggieappleton/digital-gardeners
-clipped: 2024-03-29
+created: 2024-03-29
 published: 
 topics: 
 tags:
