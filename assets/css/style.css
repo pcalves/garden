@@ -223,7 +223,7 @@ hr {
 
 .status {
   width: fit-content;
-  border: 0.1em solid var(--link-color);
+  /* border: 0.1em solid var(--link-color); */
   background: var(--blockquote-bg-color);
   padding: 1em;
   color: var(--text-color);
