@@ -4,6 +4,7 @@ type:
 tags:
   - notes
 created: 2024-03-27
+status: Starts one place and ends somewhere entirely different. Probably only applies to my particular set of tools and requirements.
 share: true
 ---
 
