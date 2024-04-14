@@ -4,6 +4,7 @@ type:
 tags:
   - self-improvement
   - self-care
+status: A bit esoteric and ill-defined, but I stand by the point made here.
 share: true
 ---
 
