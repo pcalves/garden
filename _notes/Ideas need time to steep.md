@@ -6,6 +6,7 @@ tags:
   - thinking
   - writing
 created: 2024-04-07
+status: Mostly derived from personal experience, so YMMV.
 share: true
 ---
 
