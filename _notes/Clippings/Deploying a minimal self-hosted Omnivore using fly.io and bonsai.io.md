@@ -3,7 +3,7 @@ type: "[[Clippings]]"
 author: 
 title: Deploying a minimal self-hosted Omnivore using fly.io and bonsai.io
 source: https://blog.omnivore.app/p/deploying-a-minimal-self-hosted-omnivore
-clipped: 2024-03-27
+created: 2024-03-27
 published: 2021-10-13
 topics: 
 tags:
