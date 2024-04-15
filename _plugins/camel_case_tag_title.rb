@@ -10,6 +10,7 @@ class CamelCaseTagTitleGenerator < Jekyll::Generator
        .gsub('Drm', 'DRM')
        .gsub('Pkm', 'PKM')
        .gsub('Vc', 'VC')
+       .gsub('Ai', 'AI')  
         tag.data['title'] = title_from_filename
     end
   end
