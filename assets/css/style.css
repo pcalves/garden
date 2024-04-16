@@ -231,6 +231,7 @@ hr {
 }
 
 .time {
+  font-family: monospace;
   font-size: 0.85em;
   opacity: 0.85;
 }
@@ -356,4 +357,17 @@ nav {
 
 .list-time {
   font-variant-numeric: tabular-nums;
+}
+
+.tags { 
+  display: grid;
+  gap: 0.25em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.tag {
+  background: var(--blockquote-bg-color);
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  margin-top: 0;
 }

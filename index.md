@@ -5,37 +5,18 @@ id: home
 
 <article>
 <section>
-{% if site.notes.last %}
-<h1>Latest</h1>
 
-<blockquote>
-<h2>{{ site.notes.last.title }}</h2>
+Hi! This is my digital garden. Think of it as a personal wiki of sorts, a place to write about subjects of personal interest, to gather links and notes and to make new and unexpected connections. Feel free to poke around.
 
-<p class="list-time">
-<time datetime="{{ sites.notes.last.last_modified_at | date_to_xmlschema }}">
-Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
-</time>
-</p>
+<hr>
 
-<p>{{ site.notes.last.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
-<p><a class="internal-link" href="{{ site.notes.last.url }}">Read more</a></p>
-</blockquote>
-{% endif %}
-
-<hr/>
-
-{% assign tags = site.notes | map: 'tags' | join: ' '  | split: ' ' | uniq | sort %}
-{% if tags.size > 0 %}
 <h1>Topics</h1>
 
-<div>
-{% for tag in tags %}
-{% unless tag == "people" or tag == "books" or tag == "clippings" or tag == "notes" %}
-<a class="tag" href="/tags/{{tag}}" target="_self">{{ tag | replace: "-", "&nbsp;" }}</a>{% unless forloop.last %}, {% endunless %}
-{% endunless %}
+<div class="tags">
+{% for tag in site.tags %}
+<a class="tag" href="/tags/{{tag.slug}}" target="_self">{{ tag.title }}</a>
 {% endfor %}
 </div>
-{% endif %}
 
 <hr/>
 
@@ -55,11 +36,11 @@ Last updated {{ site.notes.last.last_modified_at | date: "%B %-d, %Y" }}
 <hr/>
 
 <h1>Links</h1>
-{% assign links = site.notes | where_exp: "note", "note.tags contains 'clippings'" | sort: "clipped" | reverse %}
+{% assign links = site.notes | where_exp: "note", "note.tags contains 'clippings'" | sort: "created" | reverse %}
 {% for note in links %}
-<p>
-<time datetime="{{ note.clipped | date_to_xmlschema }}">
-{{ note.clipped | date: "%m / %Y" }} –
+<p class="list-time">
+<time datetime="{{ note.created | date_to_xmlschema }}">
+{{ note.created | date: "%m / %Y" }} –
 </time>
 <a href="{{ note.source }}">{{ note.title }}</a>
 </p>

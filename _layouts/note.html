@@ -5,11 +5,15 @@ layout: default
 <article>
   <section>
     <header>
-      <h1>{{ page.title }}</h1>
+      <h6><a href="/#notes">Notes</a> / {{ page.title }}</h6>
       <p class="time">
-      <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}Last updated {{
+      <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% if page.type != 'pages' %}Updated {{
         page.last_modified_at | date: "%B %-d, %Y" }}{% endif %}</time>{% if page.category != null %} &ndash;
       {{page.category}}{% endif %}
+      {% for tag in page.tags %}
+      {% assign site_tag = site.tags | where: "slug", tag | first %}
+      <a class="tag" href="/tags/{{ site_tag.slug }}">{{ site_tag.title }}</a>
+      {% endfor %}
       </p>
       {%if page.status %}
       <div class="status">
