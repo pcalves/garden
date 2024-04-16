@@ -25,19 +25,14 @@ After some hours spent trying to set up Ruby and all the required dependencies f
 
 ## Implementation details
 
-Set up https://github.com/pcalves/garden using https://github.com/maximevaillancourt/digital-garden-jekyll-template as a starting point.
+Set up https://github.com/pcalves/garden using https://github.com/meewgumi/green-web-template as a starting point. This is a fork of https://github.com/maximevaillancourt/digital-garden-jekyll-template with some nice QoL improvements, especially support for Obsidian images.
 
-Removed the graph renderer and replaced all SASS by the same CSS used in https://pcalv.es.
+Removed the graph renderer and replaced the CSS by the one used in https://pcalv.es. It's been greatly expanded on since the initial import.
 
-[Github Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) handles merging notes into the repo. I can set which notes should be published using a front matter attribute. Still left to be done:
-- [x] Allow plugin to delete notes (requires setting ignored file paths)
-- [x] Allow plugin to auto-merge to `main`
-- [x] Make sure templates are all set up with the `share` attribute
+[Github Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) handles merging notes into the repo. I can set which notes should be published using a front matter attribute.
 
-My local notes include `People`, `Clippings` and `Books`. While I don’t want to publish these publicly, I want to be able to link to them in my notes. Each note of that type should have an external URL. How can I convert the wikilinks to external links when parsing my notes using Jekyll?
+My local notes include `People`, `Clippings` and `Books`. While I don’t want to publish these publicly, I want to be able to link to them in my notes. Each note of that type should have a `source` URL. Jekyll will display those as external links, and avoid linking to its pages.
 
-See a possible solution here: https://chenhuijing.com/blog/handling-articles-on-external-sites/#%F0%9F%91%BE
+Larger notes can become a bit unwieldy to navigate. I want a ToC in the style of [[Maggie Appleton|Maggie Appleton]]'s, see [this article](https://maggieappleton.com/nontechnical-gardening) for a good example.
 
-Alternatively, maybe I _do_ expose these notes, but make sure the front matter is rendered: https://forum.obsidian.md/t/a-frontmatter-that-finally-supports-links-lilas-frontmatter/53087
-
-The main issue I’m trying to avoid is `Clipping` being mistaken for my own words. Archiving whole pages is powerful and something I intend to keep on doing, but re-publishing those under my own domain feels iffy, even if they are contextualized.
+https://github.com/allejo/jekyll-toc looks like a great solution: zero dependencies, just drag and drop into your own project.
