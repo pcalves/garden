@@ -1,7 +1,8 @@
 ---
 type:
   - "[[Notes|Notes]]"
-tags: 
+tags:
+  - processes
 created: 2024-04-16
 status: Very messy, still working through the various approaches and far from reaching anything resembling a conclusion, or anything actionable really.
 share: true
