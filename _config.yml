@@ -5,9 +5,6 @@ favicon: 🪴
 # https://jekyllrb.com/docs/configuration/options/
 timezone: Europe/Lisbon
 
-# Comment out .htaccess if you're uploading to a non-Apache server such as Netlify
-# include: [".htaccess"]
-
 # Remove obsidian-templates and delete the folder if you aren't using Obsidian Templates plugin
 exclude: ["_includes/notes_graph.json"]
 
