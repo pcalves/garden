@@ -2,29 +2,35 @@
 {% assign minCommonTags = 2 %}
 {% assign maxRelatedCounter = 0 %}
 
+{% capture relatedNotes %}
+{% for note in site.notes %}
+{% assign sameTagCount = 0 %}
+{% for tag in note.tags %}
+{% if note.url != page.url and page.tags contains tag %}
+{% assign sameTagCount = sameTagCount | plus: 1 %}
+{% endif %}
+{% endfor %}
+{% if sameTagCount >= minCommonTags %}
+{% if note.source %}
+{% assign noteUrl = note.source %}
+{% else %}
+{% assign noteUrl = note.url %}
+{% endif %}
+<li><a href="{{ noteUrl }}">{{ note.title }}</a></li>
+{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+{% if maxRelatedCounter >= maxRelated %}
+{% break %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endcapture %}
+
+{% assign content = relatedNotes | strip_newlines %}
+
+{% if content != "" %}
 <hr />
 <h4>Related Notes or Links</h4>
-
 <ul>
-    {% for note in site.notes %}
-    {% assign sameTagCount = 0 %}
-    {% for tag in note.tags %}
-    {% if note.url != page.url and page.tags contains tag %}
-    {% assign sameTagCount = sameTagCount | plus: 1 %}
-    {% endif %}
-    {% endfor %}
-
-    {% if sameTagCount >= minCommonTags %}
-    {% if note.source %}
-    {% assign noteUrl = note.source %}
-    {% else %}
-    {% assign noteUrl = note.url %}
-    {% endif %}
-    <li><a href="{{ noteUrl }}">{{ note.title }}</a></li>
-    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-    {% if maxRelatedCounter >= maxRelated %}
-    {% break %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+    {{ relatedNotes }}
 </ul>
+{% endif %}
