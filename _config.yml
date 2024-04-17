@@ -25,7 +25,6 @@ open_external_links_in_new_tab: true
 page_excerpts: false
 
 plugins:
-  - jekyll-last-modified-at
   - jekyll-regex-replace
 
 collections:

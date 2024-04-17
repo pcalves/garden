@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h6><a href="/#topics">Topics</a> / {{ page.title }}</h6>
+<h2>{{ page.title }}</h2>
 
 {% comment %} 
 The code below is a mess and I'm all about it. Some excellent spaghetti that
@@ -14,7 +14,7 @@ generates a sentence that tells folks how many links and notes contain the tag.
 
 <p>
     There {%if links_count > 1 or links_count == 0 and notes_count > 1%}are{% else %}is{% endif %} {%if links_count > 0 %}{{ links_count }} link{% if links_count > 1%}s{% endif %}{% endif %}{% if links_count > 0 and notes_count > 0 %} and
-    {% endif %}{% if notes_count > 0 %}{{ notes_count }} note{%if notes_count > 1 %}s{% endif %}{% endif %} on this topic.
+    {% endif %}{% if notes_count > 0 %}{{ notes_count }} note{%if notes_count > 1 %}s{% endif %}{% endif %} on this topic:
 </p>
 
 <ul class="posts">
