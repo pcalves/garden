@@ -24,11 +24,9 @@ layout: default
     </header>
 
     {{ content }}
-{% include related-notes.html %}
-    </section>
 
-<aside>
   {% if page.backlinks.size > 0 %}
+    <hr />
   <h5>References</h5>
   <div class="backlink-container">
     {% for backlink in page.backlinks %}
@@ -40,7 +38,8 @@ layout: default
     {% endfor %}
   </div>
   {% endif %}
-</aside>
+{% include related-notes.html %}
+</section>
 </article>
 
 {%- if site.show_notes_graph -%}
