@@ -49,7 +49,7 @@ Hi! This is my digital garden. Think of it as a personal wiki of sorts, a place 
 {% for note in links %}
 <div class="note-link">
 <p>
-<a href="{{ note.source }}">{{ note.title }}</a>
+<a href="{{ note.source }}" target="_blank">{{ note.title }}</a>
 </p>
     <div class="tags tags-row">
     {% for tag in note.tags %}

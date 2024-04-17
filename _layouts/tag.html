@@ -22,7 +22,7 @@ generates a sentence that tells folks how many links and notes contain the tag.
     {% if note.tags contains page.tag %}
     <li>
         {% if note.source %}
-        <a href="{{ note.source }}">{{ note.title }}</a>
+        <a href="{{ note.source }}" target="_blank">{{ note.title }}</a>
         {% else %}
         <a class="internal-link" href="{{ note.url | relative_url }}">{{ note.title }}</a>
         {% endif %}
