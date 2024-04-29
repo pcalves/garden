@@ -22,7 +22,7 @@ It's nice to have it available at your fingertips, but do you really _need_ to b
 ## Reminders
 Most of these can live on my computer since they’re work-related. Others, like habits and chores, maybe be better suited as part of a very light sort of bullet journal that I can keep on me at all times. Even post-it notes on my desk for things that I absolutely can’t forget about. 
 
-The idea of tracking events, chores and habits on paper is starting to appeal to me. Obsidian is great for that stuff, but it tethers me to my phone. It’s good for work or long-term personal projects. But the day-to-day stuff can be more ephemeral.o
+The idea of tracking events, chores and habits on paper is starting to appeal to me. Obsidian is great for that stuff, but it tethers me to my phone. It’s good for work or long-term personal projects. But the day-to-day stuff can be more ephemeral.
 
 ## Lists
 Have a tearaway notebook handy. Jot things down as needed. Discard once no longer needed.
