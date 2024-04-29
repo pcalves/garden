@@ -10,7 +10,6 @@ tags:
   - clippings
   - the-good-web
   - open-source
-  - better-browsing
 share: true
 ---
 

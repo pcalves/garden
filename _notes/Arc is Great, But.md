@@ -3,7 +3,6 @@ type:
   - "[[Notes|Notes]]"
 tags:
   - notes
-  - better-browsing
   - software
   - ai
 created: 2024-04-14
@@ -15,15 +14,23 @@ Arc is, in one word, _delightful_. The entire experience of installing, setting 
 
 And yet.
 
-There's at least two things that annoy me about Arc. One big, one small, but both have me thinking about switching to anything else often enough.
+There's at least three things that annoy me about Arc. Let's call them the bad, the ugly and the monster.
 
-## The Small Gripe
+## The Bad
 
 Arc doesn't do bookmarklets. Maybe because it doesn't really do bookmarks? not in the traditional sense, at least. But whereas the alternative feels at least as good, if not better, for bookmarks (tabs can be as ephemeral or as permanent as you'd like, plus you can set up folders, the lack of proper bookmarklet support is baffling. 
 
 I've resorted to using an extension called [Powerlet](https://chromewebstore.google.com/detail/powerlet/ofecodkcadbenmiknnidnfepbblapgkn), which is just fine, but doesn't synchronise across profiles or devices, thus breaking the portability of the browser.
 
-## The Big Gripe
+## The Ugly
+
+Because Arc doesn't do bookmarks, it also means there's no native way to export your Arc Pinned Tabs™️. This is just totally baffling. Platform lock-in in its purest sense. Some folks out there have gone through the trouble of creating the proper tools for exporting your data:
+- https://github.com/ivnvxd/arc-export
+- https://github.com/Physton/arc-bookmarks
+
+As I'm typing this, I'm looking into Safari and looks a lot more like Arc than I remember. Tabs at the side, separate profiles. Bookmarklet support and excellent syncing between mobile and desktop. I might just try switching back.
+
+## The Monster
 
 Arc is going all-in on A.I., with features that allow users to summarise the content of pages and even a "Browse for Me" feature that acts like a souped-up search that spits out a full page instead of a list of search results.
 

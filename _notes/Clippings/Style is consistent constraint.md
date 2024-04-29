@@ -9,8 +9,6 @@ topics:
 tags:
   - clippings
   - processes
-  - constraints
-  - guidelines
 share: true
 ---
 

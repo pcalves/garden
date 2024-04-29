@@ -9,8 +9,6 @@ topics: []
 tags:
   - clippings
   - software
-  - principles
-  - vc
 share: true
 ---
 

@@ -9,7 +9,6 @@ topics:
 tags:
   - clippings
   - digital-gardens
-  - wikis
 share: true
 ---
 
