@@ -8,7 +8,6 @@ published:
 topics: []
 tags:
   - clippings
-  - frequent-visits
   - notes
 share: true
 ---
