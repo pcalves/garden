@@ -37,3 +37,12 @@ As with many things in Obsidian, there's a plugin for that. [obsidian-tagfolder]
 ### The Category Trap, or, How Folders increase friction in note-taking
 
 The cool thing about a folderless structure for notes that utilizes wikilinks for connections is that it doesn't impose a rigid structure on your thoughts. You can simply create a note out of a vague notion of an idea without having to go through the process of categorizing it. This is a bit of a double-edged sword: imposing structure impedes writing and thinking freely, but on the other end of it, it makes for a more chaotic process of retrieval and analysis of past notes.
+
+## Tags at all?
+
+Came across a really good critique of tags by [[Maxwell Forbes|Maxwell Forbes]]. From [[In Praise And Critique of Digital Gardens - Should I Grow One?|In Praise And Critique of Digital Gardens - Should I Grow One?]]:
+
+> For tags, I totally get the appeal. I love organizing things, and I love any chance at imposing order over chaos.
+> 
+> 1. **But as a reader,** I not only don’t care that someone put _programming, reflection, naval-gazing_ categories on their blog post, but it even distracts me as I always wonder… why? You are a programmer running a blog where you write about programming, I’m never going to click on your “programming” tag. From years on the web, I can probably count on one hand the number of times I’ve used those tags, and it was always for the novelty of it.
+> 2. **As a writer,** I think tags—like links—don’t help your thinking or process. I’ve even found the opposite on my own website. Since I came up with tags, it now adds micro friction to my writing if an essay falls in multiple tags, or doesn’t fall into any tag, or if I start suspecting the tags are actually a hierarchy, or maybe even worse don’t fit in a clean hierarchy. Sure you can make a full nested-tag hierarchy and allow pages to have multiple tags. But who, exactly, is benefiting from this obsessive labeling? It might be satisfying, but it’s busywork. Tags don’t exist. Topics don’t exist.
