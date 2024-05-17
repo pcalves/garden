@@ -40,7 +40,7 @@ All I need to figure out is, what's the easiest possible way to store this data?
 
 if (document.referrer) {  
 
-    const url = new URL("[https://example.com/log-referrer](https://example.com/log-referrer)");  
+    const url = new URL("https://example.com/log-referrer");  
 
     url.searchParams.append("referrer", document.referrer);  
 
