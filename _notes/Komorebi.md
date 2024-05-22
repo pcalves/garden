@@ -1,7 +1,9 @@
 ---
 type:
   - "[[Notes|Notes]]"
-tags: nature, japan
+tags:
+  - nature
+  - japan
 created: 2024-05-17
 status:
   - Simple definition.
