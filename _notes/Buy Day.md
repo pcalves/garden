@@ -1,7 +1,9 @@
 ---
 type:
   - "[[Notes|Notes]]"
-tags: processes, self-improvement
+tags:
+  - processes
+  - self-improvement
 created: 2024-05-20
 status:
   - Not an original notion, but this is my personal commitment.
