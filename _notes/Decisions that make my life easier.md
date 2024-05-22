@@ -12,6 +12,9 @@ share: true
 
 Life is a never-ending barrage of choices, decisions and compromises. The following is a list of decisions that I've made. Once you decide on something you can let it go, or rather let it become a part of you, and reduce the number of choices. Inspired by [[Steph Ango|Steph Ango]]'s [[Style is consistent constraint|Style is consistent constraint]].
 
+## Discipline
+- I only buy new things on a pre-defined [[Buy Day|Buy Day]]
+
 ## Self-care
 - I shave my hair at least once a month (going to the hairdresser but looking into DIY)
 - I shave my face 3 times per week
